@@ -4,25 +4,25 @@
   <test thread-count="5" name="Test(failed)">
     <groups>
       <run>
-        <include name="sanity"/>
+        <include name="regression"/>
       </run>
     </groups>
     <classes>
-      <class name="testCaseRepo.TC_002">
+      <class name="testCaseRepo.TC_003">
         <methods>
-          <include name="LE_002"/>
+          <include name="LE_003"/>
         </methods>
-      </class> <!-- testCaseRepo.TC_002 -->
-      <class name="testCaseRepo.TC_001Test">
+      </class> <!-- testCaseRepo.TC_003 -->
+      <class name="testCaseRepo.TC_005">
         <methods>
-          <include name="LE_001"/>
+          <include name="CON_002"/>
         </methods>
-      </class> <!-- testCaseRepo.TC_001Test -->
-      <class name="testCaseRepo.TC_004">
+      </class> <!-- testCaseRepo.TC_005 -->
+      <class name="testCaseRepo.TC_006">
         <methods>
-          <include name="CON_001"/>
+          <include name="CON_003"/>
         </methods>
-      </class> <!-- testCaseRepo.TC_004 -->
+      </class> <!-- testCaseRepo.TC_006 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
